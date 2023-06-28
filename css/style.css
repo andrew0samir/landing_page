@@ -1,0 +1,484 @@
+a{
+    text-decoration: none;
+}
+.home{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.w-90{
+    width: 90%;
+}
+.navbar{
+    z-index: 999 !important;
+    background-color: #ffffff;
+    box-shadow: 0px 30px 50px rgb(0 0 0 / 5%);
+}
+.navbar-brand{
+    font-size: 18px ;
+    font-weight: 800;
+}
+.home .nav-link{
+    color: #111111;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand {
+    color: #1c1c1c;
+
+}
+.home-content{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.home-content h5{
+    font-size: 50px ;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.home-content h1 {
+    font-size: 44px  ;
+    padding: 8px 0px ;
+}
+.social-icon{
+    margin-top: 30px  ;
+}
+.social-icon i  {
+    color: white;
+    font-size: 14px ;
+    width: 40px ;
+    height: 40px ;
+    line-height: 40px ;
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, 0.5) ;
+}
+.social-icon i:hover  {
+    color: #eee;
+    background-color: black;
+}
+
+/* end home slide */
+/* -------------------------------------------- */
+/* start of about slide */
+.about{
+    padding: 100px 0px 70px ;
+}
+.ms-80{
+    margin-left: 70px ;
+}
+.about-img::after{
+    content: "";
+    width: 70%;
+    height: 70% ;
+    position: absolute;
+    left: 60px ;
+    bottom: 30px ;
+    background-image:url(../img/dots.png) ;
+    z-index: -1 ;
+}
+.about-img{
+    margin: 0px 0px 30px ;
+}
+.about-content{
+    margin: 0px 0px 30px ;
+    line-height: .9cm;
+}
+.about-content h3{
+    color: #343434;
+    font-size: 30px ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin: 0px 0px 8px ;
+}
+.about-content .sub-title{
+    color: #999999;
+    font-size: 14px ;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 0px 20px ;
+}
+.about-content p{
+    color: #748182;
+    font-size: 15px ;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 0px 20px ;
+}
+.skills{
+    color: #fff;
+    font-size: 13px ;
+    font-family: 'Montserrat', sans-serif;
+}
+.item{
+    margin-bottom: 30px ;
+}
+.progress{
+    border-radius: 5px  !important;
+    height: 20px !important;
+}
+.progress-bar{
+    background-color:#1c1c1c ;
+}
+.buton{
+    margin-top: 20px ;
+    padding: 10px 30px ;
+    border: 1px solid #1c1c1c ;
+    border-radius: 5px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px ;
+    transition: all 0.5s;
+}
+.buton-bg1{
+    background-color: #1c1c1c;
+    color: #eee;
+}
+.buton-bg1:hover{
+    background-color: transparent;
+    color: #343434;
+}
+.buton-bg2{
+    color: #343434;
+}
+.buton-bg2:hover{
+    background-color: #1c1c1c;
+    color: #eee;
+}
+
+/* end of about slide */
+/* ----------------------------------------------- */
+/* start of Services slide */
+
+.services{
+    padding: 100px 0px 70px ;
+}
+.bg-gray{
+    background-color: #f7f7f7;
+}
+.service-title{
+    margin: 0px 0px 80px ;
+}
+.service-title h3 {
+    color: #343434;
+    font-size: 40px ;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 2 ;
+}
+.service-title h3::after{
+    content: "";
+    width: 20%;
+    height: 40% ;
+    position: absolute;
+    left: 40% ;
+    bottom: 0 ;
+    background-image:url(../img/dots.png) ;
+    z-index: -1 ;
+}
+.services .items {
+    padding: 50px 20px ;
+    background-color: #fff;
+    box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%);
+    margin-bottom: 30px ;
+    border-radius: 5px;
+}
+.services .items .icon i {
+    font-size: 25px ;
+    margin-bottom: 20px ;
+    width: 60px ;
+    height: 60px ;
+    line-height: 60px ;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: all 0.5s;
+}
+.services .items:hover .icon i {
+    color: #eee;
+    background-color: #1c1c1c;
+}
+.items h6{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin: 0px 0px 15px ;
+    color: #343434;
+}
+.items p{
+    font-size: 14px ;
+    font-family: 'Poppins', sans-serif;
+    color: #748182;
+    word-spacing: 2px ;
+    line-height: 1.6 ;
+}
+
+/* end of services slide  */
+/* ---------------------------------------------- */
+/* start of Portfolio slide  */
+
+.Portfolio{
+    padding: 100px 0px 70px ;
+}
+.Portfolio-title{
+    margin: 0px 0px 80px ;
+}
+.Portfolio-title h3 {
+    color: #343434;
+    font-size: 40px ;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 2 ;
+}
+.Portfolio-title h3::after{
+    content: "";
+    width: 20%;
+    height: 40% ;
+    position: absolute;
+    left: 40% ;
+    bottom: 0 ;
+    background-image:url(../img/dots.png) ;
+    z-index: -1 ;
+}
+
+.nav-link ,.nav-link.active{
+    color: #222222 !important;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.nav .active{
+    text-decoration: underline;
+}
+.navs .nav {
+    border: none !important;
+}
+.nav-tabs{
+    border: none !important;
+    margin-bottom: 30px ;
+}
+.nav-tabs .nav-link.active {
+    border: none !important;
+}
+.port-item {
+    position: relative;
+}
+.port-layer {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    bottom: 7px;
+    right: 7px;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.port-item:hover .port-layer {
+    opacity: 1;
+}
+.port-ico i {
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: #111;
+    color: #eee;
+    transition: all 0.5s;
+}
+.port-ico i:hover {
+    background: #eee;
+    color: #111;
+}
+.sm-title h5 {
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transform: translateY(5px);
+    transition: all 0.5s;
+}
+.port-item:hover .sm-title h5 {
+    transform: translateY(-5px);
+}
+.port-ico {
+    position: relative;
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+.port-item:hover .port-ico {
+    transform: translateY(5px);
+}
+
+/* end of portfolio slide  */
+/* ---------------------------------------------*/
+/* start of testimonials slide  */
+.testimonials{
+    padding: 90px 0px 90px ;
+}
+.t-layer{
+    background-color: #f7f7f7;
+    padding: 90px 0px 90px ;
+}
+.testimonials-title{
+    margin: 0px 0px 80px ;
+}
+.testimonials-title h3 {
+    color: #343434;
+    font-size: 40px ;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 2 ;
+}
+.testimonials-title h3::after{
+    content: "";
+    width: 20%;
+    height: 40% ;
+    position: absolute;
+    left: 40% ;
+    bottom: 0 ;
+    background-image:url(../img/dots.png) ;
+    z-index: -1 ;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #869791 !important;
+    margin-top: 60px !important;
+    width: 10px  ;
+    height: 10px  ;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    bottom: -70px;
+}
+.carousel-indicators [data-bs-target]:hover {
+    background-color: #454f4b !important;
+}
+.slider-content img{
+    margin-bottom: 10px ;
+}
+.slider-content p {
+    color: #748182;
+    word-spacing: 2px ;
+    font-size: 15px ;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+.slider-content h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px ;
+    font-weight: 600;
+    color: #343434;
+    margin: 30px 0px 5px ;
+}
+.slider-content span{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #888;
+}
+
+/* end of testimonials slide  */
+/* -------------------------------------------- */
+/* start of counters slide   */
+.counters .pb-70{
+    padding-bottom: 70px ;
+}
+.counters .item .icon i{
+    font-size: 30px ;
+}
+.counters .item h3{
+    color: #343434;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px  ;
+    font-weight: 900;
+    font-weight: 400;
+    margin-bottom: 15px ;
+}
+.counters .item p{
+    color: #748182;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px  ;
+    font-weight: 400 ;
+    margin-bottom: 30px ;
+}
+/* end of counters slide  */
+/* ---------------------------------------------------------- */
+/* start of contact slide  */
+.contact{
+    padding: 100px 0px 80px ;
+}
+.contact-title{
+    margin: 0px 0px 80px ;
+}
+.contact-title h3 {
+    color: #343434;
+    font-size: 40px ;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 2 ;
+}
+.contact-title h3::after{
+    content: "";
+    width: 22%;
+    height: 40% ;
+    position: absolute;
+    left: 39% ;
+    bottom: 0 ;
+    background-image:url(../img/dots.png) ;
+    z-index: -1 ;
+}
+.form-name input ,.form-email input ,.form-msg textarea{
+    background-color: #f4f4f4;
+    width: 100%;
+    border: none;
+    border-radius: 5px ;
+    padding: 10px ;
+}
+.contact .item {
+    margin-bottom: 30px ;
+}
+.contact .item h6 {
+    margin-bottom: 10px ;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 700;
+    color: #343434;
+}
+.contact .item p {
+    margin-bottom: 10px ;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #748182;
+}
+
+.contact .item .icon i  {
+    font-size: 25px ;
+    margin-bottom: 20px ;
+    width: 60px ;
+    height: 60px ;
+    line-height: 60px ;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: all 0.5s;
+}
+.contact .item .icon i:hover {
+    color: #eee;
+    background-color: #1c1c1c;
+}
+
+/* end of contact slide  */
+/* ---------------------------------------- */
+/* start of footer */
+
+footer{
+    background-color: #1c1c1c;
+    padding: 30px;
+}
+footer p{
+    font-size: 14px;
+    word-spacing: 2px ;
+    color: #748182;
+}
+
+/* end of footer  */
